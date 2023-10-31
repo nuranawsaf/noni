@@ -17,7 +17,7 @@ const images = [
 const Home: NextPage = () => {
   return (
     <div className="min-h-screen w-full overflow-hidden bg-gray-50 px-8  transition-all duration-300 dark:bg-gray-900">
-      <div className="container h-full py-8">
+      {/* <div className="container h-full py-8">
         <div className="flex h-full justify-center">
           <div className=" text-center ">
             <motion.div
@@ -96,7 +96,8 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <h1>hello world</h1>
     </div>
   );
 };
