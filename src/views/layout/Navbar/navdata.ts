@@ -7,27 +7,27 @@ interface LinkProps {
 export const links: LinkProps[] = [
   {
     id: 1,
-    title: 'HOME',
+    title: 'Home',
     href: '/',
   },
   {
     id: 2,
-    title: 'ABOUT US',
-    href: '#about',
+    title: 'Sweets & more',
+    href: '',
   },
   {
     id: 3,
-    title: 'PORTFOLIO',
-    href: '/portfolio',
+    title: 'Menu',
+    href: '',
   },
   {
     id: 4,
-    title: 'TESTIMONIAL',
-    href: '/testimonial',
+    title: 'About Us',
+    href: '',
   },
   {
     id: 5,
-    title: 'CONTACT',
-    href: '/contact',
+    title: 'Contact Us',
+    href: '',
   },
 ];

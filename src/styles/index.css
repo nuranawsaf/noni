@@ -6,11 +6,13 @@
 /* BASE STYLES */
 @layer base {
   body {
-    @apply text-base;
+    @apply font-inter text-base;
   }
   h1 {
+    @apply font-inter text-[3.9rem] leading-[90.224px];
   }
   h2 {
+    @apply font-inter text-6xl;
   }
   h3 {
   }
@@ -24,8 +26,11 @@
   }
   button {
   }
+  .hero-bg {
+    @apply bg-[url('/assets/images/hero-bg.jpg')];
+  }
   .bg-style {
-    @apply bg-cover bg-no-repeat bg-center;
+    @apply bg-cover bg-center bg-no-repeat;
   }
   .sb {
     @apply border border-red-500;

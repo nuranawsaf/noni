@@ -17,11 +17,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '',
-        secondary: '',
-        tertiary: '',
+        primary: '#23BD32',
+        secondary: '#555',
+        tertiary: '#545454',
       },
-      fontFamily: {},
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+      },
     },
   },
   variants: {},
