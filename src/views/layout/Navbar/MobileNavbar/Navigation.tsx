@@ -19,12 +19,12 @@ const variants = {
 const Navigation = ({ toggle }: { toggle: any }) => {
   return (
     <motion.ul
-      className="absolute top-0 right-0 z-30 h-full w-screen bg-gray-400 px-8 md:w-full"
+      className="absolute top-0 right-0 z-30 h-full w-screen bg-white px-8 md:w-full"
       variants={variants}
     >
       <Link href="/">
         <div className="flex cursor-pointer items-center gap-x-2 py-4">
-          <img src="" alt="innerlogo-navigation" />
+          <img width={90} src="/assets/images/logo.png" alt="Brand Logo" />
         </div>
       </Link>
 

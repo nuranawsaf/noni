@@ -9,16 +9,17 @@
     @apply font-inter text-base;
   }
   h1 {
-    @apply font-inter text-[3.9rem] leading-[90.224px];
+    @apply font-inter text-3xl lg:text-[3.9rem] lg:leading-[90.224px];
   }
   h2 {
-    @apply font-inter text-6xl;
+    @apply font-inter lg:text-6xl;
   }
   h3 {
   }
   h4 {
   }
   p {
+    @apply text-base font-normal;
   }
   .p_small {
   }
@@ -38,7 +39,7 @@
 
   .container {
     margin: 0 auto;
-    width: calc(100% - 80px);
+    width: calc(100% - 50px);
     max-width: 1320px;
   }
 

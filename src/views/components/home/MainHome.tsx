@@ -3,7 +3,7 @@ import Hero from './hero/Hero';
 
 const MainHome = () => {
   return (
-    <div className="sb">
+    <div className="">
       <Hero />
     </div>
   );
