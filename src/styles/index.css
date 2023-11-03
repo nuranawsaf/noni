@@ -17,6 +17,7 @@
   h3 {
   }
   h4 {
+    @apply font-inter text-3xl;
   }
   p {
     @apply text-base font-normal;
@@ -32,6 +33,11 @@
   }
   .bg-style {
     @apply bg-cover bg-center bg-no-repeat;
+  }
+  .bg-color {
+    background-color: rgba(57, 219, 74, 0.08);
+    border-radius: 40px;
+    border: 1px solid #d1d1d1;
   }
   .sb {
     @apply border border-red-500;

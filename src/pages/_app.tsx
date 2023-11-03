@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <Provider store={store}>
       <Head>
-        <title>Next JS Starter</title>
+        <title>Noni Sweets</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
