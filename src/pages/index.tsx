@@ -4,6 +4,10 @@ import { NextPage } from 'next';
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+<<<<<<< HEAD
+=======
+import MainHome from '@/views/components/home/MainHome';
+>>>>>>> origin/master
 
 const images = [
   { id: 1, src: '/assets/images/next-js.svg' },
@@ -16,6 +20,7 @@ const images = [
 
 const Home: NextPage = () => {
   return (
+<<<<<<< HEAD
     <div className="min-h-screen w-full overflow-hidden bg-gray-50 px-8  transition-all duration-300 dark:bg-gray-900">
       <div className="container h-full py-8">
         <div className="flex h-full justify-center">
@@ -97,6 +102,10 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
+=======
+    <div>
+      <MainHome />
+>>>>>>> origin/master
     </div>
   );
 };

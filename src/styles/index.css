@@ -6,17 +6,34 @@
 /* BASE STYLES */
 @layer base {
   body {
+<<<<<<< HEAD
     @apply text-base;
   }
   h1 {
   }
   h2 {
+=======
+    @apply font-inter text-base;
+  }
+  h1 {
+    @apply font-inter text-3xl lg:text-[3.9rem] lg:leading-[90.224px];
+  }
+  h2 {
+    @apply font-inter lg:text-6xl;
+>>>>>>> origin/master
   }
   h3 {
   }
   h4 {
+<<<<<<< HEAD
   }
   p {
+=======
+    @apply font-inter text-3xl;
+  }
+  p {
+    @apply text-base font-normal;
+>>>>>>> origin/master
   }
   .p_small {
   }
@@ -24,8 +41,21 @@
   }
   button {
   }
+<<<<<<< HEAD
   .bg-style {
     @apply bg-cover bg-no-repeat bg-center;
+=======
+  .hero-bg {
+    @apply bg-[url('/assets/images/hero-bg.jpg')];
+  }
+  .bg-style {
+    @apply bg-cover bg-center bg-no-repeat;
+  }
+  .bg-color {
+    background-color: rgba(57, 219, 74, 0.08);
+    border-radius: 40px;
+    border: 1px solid #d1d1d1;
+>>>>>>> origin/master
   }
   .sb {
     @apply border border-red-500;
@@ -33,7 +63,11 @@
 
   .container {
     margin: 0 auto;
+<<<<<<< HEAD
     width: calc(100% - 80px);
+=======
+    width: calc(100% - 50px);
+>>>>>>> origin/master
     max-width: 1320px;
   }
 

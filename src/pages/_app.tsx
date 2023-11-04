@@ -11,7 +11,11 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <Provider store={store}>
       <Head>
+<<<<<<< HEAD
         <title>Next JS Starter</title>
+=======
+        <title>Noni Sweets</title>
+>>>>>>> origin/master
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
