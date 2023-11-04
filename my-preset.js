@@ -17,13 +17,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-<<<<<<< HEAD
-        primary: '',
-        secondary: '',
-        tertiary: '',
-      },
-      fontFamily: {},
-=======
         primary: '#23BD32',
         secondary: '#555',
         tertiary: '#545454',
@@ -31,7 +24,6 @@ module.exports = {
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
       },
->>>>>>> origin/master
     },
   },
   variants: {},
