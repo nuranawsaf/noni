@@ -4,7 +4,7 @@ import { homeaddress_data } from './homeaddress-data';
 const HomeAddress = () => {
   return (
     <div className="outlet-bg">
-      <div className="container grid grid-cols-2 py-24 lg:gap-14">
+      <div className="container grid py-24 lg:grid-cols-2 lg:gap-14">
         <div className="">
           <img src="/assets/images/outlets.png" alt="" />
         </div>

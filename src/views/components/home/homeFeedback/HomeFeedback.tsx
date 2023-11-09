@@ -3,7 +3,7 @@ import React from 'react';
 const HomeFeedback = () => {
   return (
     <div className="container my-24">
-      <div className="grid grid-cols-2">
+      <div className="grid lg:grid-cols-2">
         <div className="">
           <h6 className="font-bold uppercase tracking-[3.5px] text-primary">
             testimonials
@@ -23,7 +23,7 @@ const HomeFeedback = () => {
             </p>
           </div>
 
-          <div className="mt-16 flex items-center gap-12">
+          <div className="mt-16 items-center gap-12 lg:flex">
             <img src="/assets/images/avater.png" alt="" />
             <div>
               <h6 className="text-[1.63rem] font-semibold">

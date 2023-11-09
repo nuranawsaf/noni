@@ -4,14 +4,14 @@ import { homecategories_data } from './homecategories-data';
 const HomeCategories = () => {
   return (
     <div className="container ">
-      <div className="my-20 text-center">
+      <div className="my-10 text-center lg:my-20">
         <h6 className="font-bold uppercase tracking-[3.5px] text-primary">
           Customer Favorites
         </h6>
         <h2 className="font-bold">Popular Catagories</h2>
       </div>
 
-      <div className="grid grid-cols-4 gap-10">
+      <div className="grid gap-10 lg:grid-cols-4">
         {homecategories_data.map((item, index) => {
           return (
             <div
@@ -19,10 +19,10 @@ const HomeCategories = () => {
               className="bg-color flex w-full justify-center py-10"
             >
               <div className="">
-                <div className="flex items-center justify-center rounded-full bg-white px-5 lg:h-[9.45rem] lg:w-[9.45rem]">
+                <div className="flex  h-[9.45rem] w-[9.45rem] items-center justify-center rounded-full bg-white px-5">
                   <img src={item.img} alt="" />
                 </div>
-                <div className=" mt-7 text-center">
+                <div className="mt-3 text-center lg:mt-7">
                   <h4 className="font-semibold">{item.title}</h4>
                   <p>{item.des}</p>
                 </div>

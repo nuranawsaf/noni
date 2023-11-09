@@ -12,12 +12,12 @@
     @apply font-inter text-3xl lg:text-[3.9rem] lg:leading-[90.224px];
   }
   h2 {
-    @apply font-inter lg:text-6xl;
+    @apply font-inter text-3xl lg:text-6xl;
   }
   h3 {
   }
   h4 {
-    @apply font-inter text-3xl;
+    @apply font-inter text-xl lg:text-3xl;
   }
   p {
     @apply text-base font-normal;

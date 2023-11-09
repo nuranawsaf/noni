@@ -4,9 +4,9 @@ import { popularsweet_data } from './popularsweet-data';
 const PopularSweets = () => {
   return (
     <div className="container ">
-      <div className="mt-48 mb-16 text-center">
+      <div className="mb-16 mt-16 text-center lg:mt-48">
         <h2 className="font-bold">Popular Sweets</h2>
-        <div className="mt-7  font-normal text-secondary">
+        <div className="mt-2 font-normal  text-secondary lg:mt-7">
           <h6>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has
@@ -15,7 +15,7 @@ const PopularSweets = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid gap-10 lg:grid-cols-3">
         {popularsweet_data.map((item, index) => {
           return (
             <div key={index} className="sweets-card w-full p-3">
