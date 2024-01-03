@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <div className="hero-bg bg-style">
+    <div className=" bg-style">
       <div className="container items-center justify-between py-10 lg:flex">
         <div className=" font-bold  text-tertiary">
           <h1 className="uppercase">
