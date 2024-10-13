@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Hero = () => {
   return (
     <div className=" bg-style">
-      <div className="container items-center justify-between py-10 lg:flex">
+      <div className="container  items-start justify-between  lg:grid lg:grid-cols-2">
         <div className=" font-bold  text-tertiary">
           <h1 className="uppercase">
             <span className="text-primary">noni</span> full cream
@@ -23,7 +23,7 @@ const Hero = () => {
             </p>
           </div>
 
-          <div className="mt-4 lg:mt-16">
+          <div className=" mt-4 lg:mt-16">
             <button className="flex items-center justify-between gap-4 rounded-full bg-primary py-1 pl-6 pr-1 text-white">
               Watch Video
               <img
@@ -35,13 +35,8 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="mt-20 lg:mt-0">
-          <Image
-            src="/assets/images/hero-sweet.png"
-            width={400}
-            height={400}
-            alt="Picture"
-          />
+        <div className=" mt-20 w-full lg:mt-0">
+          <img src="/assets/images/hero-sweet.png" alt="Picture" />
         </div>
       </div>
     </div>

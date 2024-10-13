@@ -15,6 +15,7 @@
     @apply font-inter text-3xl lg:text-6xl;
   }
   h3 {
+    @apply text-xl lg:text-3xl;
   }
   h4 {
     @apply font-inter text-xl lg:text-3xl;

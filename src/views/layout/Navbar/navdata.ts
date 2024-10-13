@@ -18,7 +18,7 @@ export const links: LinkProps[] = [
   {
     id: 3,
     title: 'Menu',
-    href: '',
+    href: '/menuiteams',
   },
   {
     id: 4,
