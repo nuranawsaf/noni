@@ -11,28 +11,35 @@ const DasktopNavbar = () => {
 
   return (
     <div>
-      <div className=" hidden lg:block">
+      <div className="hidden lg:block">
         <TopNav />
       </div>
-      <nav className="container hidden py-2 lg:block">
-        <div className="  flex items-center justify-between">
-          <div>
-            <Link href="/">
-              <img width={150} src="/assets/images/logo.png" alt="Brand Logo" />
-            </Link>
-          </div>
 
-          <div className="flex items-center gap-10  ">
-            {links.map((link) => {
-              return (
-                <Link key={link.id} href={link.href}>
-                  {link.title}
-                </Link>
-              );
-            })}
+      <div className="border-b-2">
+        <nav className="container my-2 hidden lg:block">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center">
+              <Link href="/">
+                <img
+                  width={90}
+                  src="https://res.cloudinary.com/ddtyi1hm8/image/upload/v1728903751/noni-menu/Untitled-1_qyqagw.png"
+                  alt="Brand Logo"
+                />
+              </Link>
+            </div>
+
+            <div className="flex items-center gap-10  ">
+              {links.map((link) => {
+                return (
+                  <Link key={link.id} href={link.href}>
+                    {link.title}
+                  </Link>
+                );
+              })}
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </div>
   );
 };

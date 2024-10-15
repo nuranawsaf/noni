@@ -1,27 +1,27 @@
 import React from 'react';
-import { menuiteams_data } from './menuiteams-data';
+import { sweetsitem_data } from './menuiteams-data';
+import Link from 'next/link';
 
 const MenuIteams = () => {
   return (
-    <div className="container mt-10 grid grid-cols-1 items-center justify-center lg:grid-cols-2">
-      {menuiteams_data.map((item, index) => {
+    <div className="container my-10 grid gap-8 lg:grid-cols-5">
+      {sweetsitem_data.map((item) => {
         return (
-          <div className=" mb-14 grid items-center rounded-2xl border lg:h-max lg:w-max">
-            <div className="h-full w-full lg:h-64 lg:w-[28rem]">
-              <img
-                className="h-full w-full rounded-2xl object-cover"
-                src={item.img}
-                alt=""
-              />
-            </div>
+          <Link href={item.href}>
+            <div className="cursor-pointer rounded-xl border bg-green-100 py-6">
+              <div className="grid justify-center">
+                <img
+                  className="h-44 w-44 rounded-full object-cover p-2"
+                  src={item.img}
+                  alt=""
+                />
+              </div>
 
-            <div className="text-center">
-              <h3 className="my-5  font-semibold text-secondary">
-                {item.name}
-              </h3>
-              <h3 className="mb-8 font-bold text-primary">{item.price}</h3>
+              <h5 className="mt-1 grid justify-center text-xl font-semibold">
+                {item.title}
+              </h5>
             </div>
-          </div>
+          </Link>
         );
       })}
     </div>
